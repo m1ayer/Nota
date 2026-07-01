@@ -1,0 +1,3 @@
+- **Überträgt Kräfte** und steuert Bewegungen **durch Luft** unter hohem Druck
+- Vor allem für Steuerung- und Automatisierungtechnik angewendet - Prozessventile, Pick&Place Roboter, Dosieranlagen usw.
+- **Extrem Laut** - Die Abluft wird unter enormem Druck einfach in die Atmosphäre ausgestoßen, was mit einem entsprechenden Geräusch einhergeht
