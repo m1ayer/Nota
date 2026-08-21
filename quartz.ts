@@ -11,3 +11,4 @@ ExternalPlugin.Explorer({
 const config = await loadQuartzConfig()
 const layout = await loadQuartzLayout()
 export default config; layout
+ExternalPlugin.Latex()

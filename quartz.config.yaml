@@ -31,7 +31,6 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"
       darkMode:
-        # light: "#161618"
         light: "#0c0c0c"
         lightgray: "#393639"
         gray: "#646464"
@@ -42,6 +41,12 @@ configuration:
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    options:
+      enableInteraction: false
+      darkMode: dark
+      exportPadding: 20
   - source: github:quartz-community/created-modified-date
     enabled: false
     options:
@@ -218,9 +223,7 @@ plugins:
   - source: github:quartz-community/footer
     enabled: true
     options:
-      links:
-        # GitHub: https://github.com/jackyzha0/quartz
-        # Discord Community: https://discord.gg/cRFFHYye7t
+      links: null
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -252,6 +255,13 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
 layout:
   groups:
     toolbar:
